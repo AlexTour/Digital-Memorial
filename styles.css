@@ -85,10 +85,11 @@ model-viewer.viewer {
     padding: 0px 12px;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
-    backdrop-filter: blur(8px);
     border-top: 1px solid rgba(255,255,255,0.15);
     display: flex;
     justify-content: center;
+    bottom: 0px;
+    position: absolute;
   }
 
   footer.credits p {
