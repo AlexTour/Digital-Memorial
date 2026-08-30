@@ -13,20 +13,12 @@
 
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   </head>
-  <body>
-
-      <header class="hero">
-    <h1>ΑΝΑΤΟΛΗ ΑΓΚΟΠΙΑΝ</h1>
-    <p class="subtitle">
-      <span class="latin-name">1938-2025</span>
-    </p>
-  </header>
-    
+  <body>    
 
   <main>
 
     <section class="model-section">
-    <model-viewer src="Anatoli-v2.glb" ar ar-modes="scene-viewer quick-look" interaction-prompt="none" auto-rotate camera-controls class="viewer" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <model-viewer src="Anatoli-v2.glb" ar ar-modes="scene-viewer quick-look" interaction-prompt="none" auto-rotate max-camera-orbit="auto 90deg auto" camera-controls class="viewer" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
@@ -35,13 +27,19 @@
       </button>
     </model-viewer> 
       </section>
-        </main> 
-
+  </main> 
+  <header class="hero">
+    <h1>ΑΝΑΤΟΛΗ ΑΓΚΟΠΙΑΝ</h1>
+    <p class="subtitle">
+      <span class="latin-name">1938-2025</span>
+    </p>
+  </header>
+  
     <footer class="credits">
       <p>
         Designed by Alexandros Touramanis © 2026
       </p>
-    </footer>
+  </footer>
 
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
