@@ -4,7 +4,11 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: #111;
-  background: #a49788;
+  background: radial-gradient(
+    circle at 50% 30%,
+    #c8bebd 0%,
+    #a49788 45%,
+    #4e463d 100%
   );
   background-attachment: fixed;
 }
